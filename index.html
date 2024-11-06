@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header-item">
+        <h3 class="text-head">Bài test</h3>
+        <button class="copy-signature">Copy Chữ Ký</button>
+      </header>
+      <nav class="navbar">
+        <a class="tab active"><svg class="svg-icon" viewBox="0 0 20 20">
+            <path d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"></path>
+        </svg> Chi Tiết</a>
+
+        <a class="tab"><svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M14.68,12.621c-0.9,0-1.702,0.43-2.216,1.09l-4.549-2.637c0.284-0.691,0.284-1.457,0-2.146l4.549-2.638c0.514,0.661,1.315,1.09,2.216,1.09c1.549,0,2.809-1.26,2.809-2.808c0-1.548-1.26-2.809-2.809-2.809c-1.548,0-2.808,1.26-2.808,2.809c0,0.38,0.076,0.741,0.214,1.073l-4.55,2.638c-0.515-0.661-1.316-1.09-2.217-1.09c-1.548,0-2.808,1.26-2.808,2.809s1.26,2.808,2.808,2.808c0.9,0,1.702-0.43,2.217-1.09l4.55,2.637c-0.138,0.332-0.214,0.693-0.214,1.074c0,1.549,1.26,2.809,2.808,2.809c1.549,0,2.809-1.26,2.809-2.809S16.229,12.621,14.68,12.621M14.68,2.512c1.136,0,2.06,0.923,2.06,2.06S15.815,6.63,14.68,6.63s-2.059-0.923-2.059-2.059S13.544,2.512,14.68,2.512M5.319,12.061c-1.136,0-2.06-0.924-2.06-2.06s0.923-2.059,2.06-2.059c1.135,0,2.06,0.923,2.06,2.059S6.454,12.061,5.319,12.061M14.68,17.488c-1.136,0-2.059-0.922-2.059-2.059s0.923-2.061,2.059-2.061s2.06,0.924,2.06,2.061S15.815,17.488,14.68,17.488"></path>
+        </svg>Links</a>
+        <as class="tab">Thiết Kế</as>
+      </nav>
+      <section class="section-container">
+        <div class="form-section " id="formSection">
+            <div class="title"><span class="title-details">Thông tin cá nhân</span></div>
+          <div class="input-group">
+            <label for="name">Họ và tên</label>
+            <input
+              type="text"
+              id="name"
+              value="Dương Thanh Nghệ 127"
+              
+            />
+          </div>
+          <div class="input-group">
+            <label for="position">Biệt danh</label>
+            <input type="text" id="position" value=""  />
+          </div>
+          <div class="input-group">
+            <label for="position">Chức danh</label>
+            <input type="text" id="position" value="Manager"  />
+          </div>
+      
+          <div class="title">
+            <span class="title-details">Chi tiết</span>
+
+          </div>
+          <div class="input-group">
+            <div class="form-phone">
+              <label for="phone"><i class="fa-solid fa-phone"></i> Phone</label>
+              <input type="text" id="phone" value="0365305920"  />
+            </div>
+           
+          </div>
+          <div class="input-group">
+            <label for="email"><i class="fa-regular fa-envelope"></i> Email</label>
+            <input
+              type="email"
+              id="email"
+              value="duongthanhnghe120796@gmail.com"
+              
+            />
+          </div>
+          <div class="input-group">
+            <label for="address"><i class="fa-solid fa-location-dot"></i> Địa chỉ</label>
+            <input type="text" id="address" value="Đà Nẵng"  />
+          </div>
+        </div>
+        <div class="form-section-link hidden" id="linkSection">
+          <div class="title"><span class="title-details">Links</span></div>
+        <div class="input-group">
+          <label for="facebook"><i class="fa-brands fa-facebook"></i> Facebook</label>
+          <input
+            type="text"
+            id="Facebook"
+            value=""
+            
+          />
+          
+        </div>
+        <div class="input-group">
+          <label for="Ig"> <i class="fa-brands fa-square-instagram"></i>instagram</label>
+          <input type="text" id="Ig" value=""  />
+        </div>
+        <div class="input-group">
+          <label for="twitter"><i class="fa-brands fa-twitter"></i>Twitter</label>
+          <input type="text" id="twitter" value=""  />
+        </div>
+        
+        <div class="icons">
+          <div class="icon act">
+            <i class="fa-brands fa-facebook-f"></i><p>Facebook</p>
+          </div>
+          <div class="icon act">
+            <i class="fa-brands fa-instagram"></i> <p>Instagram</p>
+          </div>
+          <div class="icon act">
+            <i class="fa-brands fa-twitter"></i><p>Twitter</p>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-youtube"></i>
+            <p>YouTube</p>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+            <p>LinkedIn</p>
+          </div>
+        </div>
+      </div>
+        <div class="Preview">
+          <div class="card-preview">
+            <div class="title-card">
+              <h5> <span>Đến :</span> Email Người nhận</h5>
+              <h5> <span>Chủ đề :</span>Kiểm tra chữ ký email mới của tôi!</h5>
+            </div>
+             
+              <div class="card">
+                  <h4 id="preview-name">Dương Thanh Nghệ 127</h4>
+                  <p id="preview-position">Manager</p>
+                  <div class="details-card">
+                    <ul class="details">
+                      <li id="preview-phone"> <span class="details-item-preview"><i class="fa-solid fa-phone"></i> Điện thoại</span> 0365305920</li>
+                      <li id="preview-email">
+                        <span class="details-item-preview"><i class="fa-regular fa-envelope"></i> Email</span> duongthanhnghe120796@gmail.com</li>
+                      <li id="preview-address">
+                        <span class="details-item-preview"><i class="fa-solid fa-location-dot"></i> Địa chỉ</span> Đà Nẵng</li>
+                        <li id="preview-website">
+                          <span class="details-item-preview"><i class="fa-solid fa-link"></i> WebSite</span> AionCard.vn</li>
+                  </ul>
+                  <img src="https://cms.lichngaytot.com/medias/original/2015/5/13/Khuon-mat-chu-vuong-he-lo-dieu-gi-ve-ban-chat-con-nguoi.jpg" alt="">
+                  </div>
+                 
+                  <div class="social-icons">
+                      <span><i class="fa-brands fa-facebook"></i></span>
+                      <span><i class="fa-brands fa-square-instagram"></i></span>
+                      <span><i class="fa-brands fa-twitter"></i></span>
+                  </div>
+                  <div
+                  class="line">
+                <hr>
+             </div>
+             <hr>
+         </div>
+          </div>
+      </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+ 
+</html>
